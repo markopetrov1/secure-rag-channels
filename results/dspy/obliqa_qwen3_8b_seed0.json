@@ -1,0 +1,73 @@
+{
+  "answer.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "context": "[1] DIGITAL SECURITIES – SPECIFIC REGULATORY CONSIDERATIONS\nThird party outsourcing\nFSRA’s policy position on outsourcing is set out paragraphs 82-87 of the Virtual Assets Guidance, and applies equally to entities engaged in Digital Securities activities.  In addition, FSRA expects that any outsourcing arrangements will meet international regulatory guidelines applicable to outsourcing arrangements, including in relation to its contractual arrangements.\n\n[2] MARKETS RULES – OFFERS OF SECURITIES TO THE PUBLIC\nAppointment of Legal Advisers\nIssuers seeking to make an Offer of Digital Securities should consider the appointment of suitable legal advisers, with the appropriate skills, knowledge and experience to provide the requisite assistance to the Issuer throughout the Offer process. The FSRA expects that such legal advisers would assist in ensuring an Issuer’s compliance with the applicable provisions of FSMR (including having the FSRA deem a Digital Security a Security under FSMR Section 58(2)(b)), and MKT (including in relation to the Listing Rules within MKT).  The FSRA would generally expect to have direct engagement with an Issuer’s legal advisers throughout this process, particularly in relation to the drafting, and FSRA review, of Offer documentation.\n\n[3] MARKETS RULES – OFFERS OF SECURITIES TO THE PUBLIC\nOffers of Securities\nDue to the complexities associated with Offers of Digital Securities (from a technology perspective, and to take into account the relative infancy and resultant risks of the Digital Securities industry itself), the FSRA generally expects that an Issuer intending to make an Offer of Digital Securities is to be incorporated within the ADGM.\n\n[4] REGULATORY TREATMENT OF DIGITAL SECURITIES\nFor regulatory purposes, Offers of Securities (as defined in Section 258 of FSMR), whether through a DLT platform, digital platform or other means, will be subject to consistent regulatory treatment by the FSRA.  As such, similar to the treatment of a conventional Issuer of Securities, Issuers / market participants who seek to raise funds in a regulated, robust and transparent manner using new business models or technologies (such as DLT), are encouraged to engage with the FSRA regarding the proposed Offer as early as possible in the fund-raising process.\n\n[5] DIGITAL SECURITIES & TRADING VENUES\nAs set out in this Guidance so far, the FSRA’s regulatory framework allows for Digital Securities to be offered, admitted to the Official List (maintained by FSRA) and traded on secondary markets within ADGM. This section of the Guidance will now set out the FSRA’s expectations in relation to how ADGM trading venues (RIEs, MTFs and Organised Trading Facilities (“OTFs”)) interact with Digital Securities. The FSRA’s policy position and expectations in relation to the operation of these different market infrastructures is set out below.",
+        "question": "What is the FSRA's position on the use of third-party service providers for the management and execution of Digital Securities Offers, and are there specific criteria that these service providers must meet?",
+        "reasoning": "The context provided outlines the FSRA's policy position on outsourcing, specifically in relation to Digital Securities activities. It states that FSRA’s policy on outsourcing, detailed in paragraphs 82-87 of the Virtual Assets Guidance, applies equally to entities engaged in Digital Securities activities. Furthermore, it mentions that outsourcing arrangements must meet international regulatory guidelines, including contractual arrangements. This indicates that the FSRA has a defined position on the use of third-party service providers and that they must meet specific regulatory criteria.",
+        "answer": "The FSRA's position is that outsourcing arrangements for the management and execution of Digital Securities Offers must meet international regulatory guidelines and contractual standards. The FSRA expects that any outsourcing arrangements will comply with these guidelines, including in relation to contractual arrangements. Specific criteria for third-party service providers include adherence to these international regulatory standards and ensuring compliance with FSRA's expectations regarding the management and execution of Digital Securities Offers.",
+        "retrieved_ids": [
+          "4f0d067b-18ee-4105-933e-6bb1eabf4b1f",
+          "a2de4d3e-7795-4d1c-b950-8cb4b9024c89",
+          "2918160d-256f-4e60-b6d4-746f565c5b28",
+          "01368531-641b-4814-86a6-e5bd88edb479",
+          "e14e4a7f-7111-450a-b5d6-6b846f5714f4"
+        ]
+      },
+      {
+        "augmented": true,
+        "context": "[1] An Authorised Person with one or more branches outside the ADGM must implement and maintain Credit Risk policies adapted to each local market and its regulatory conditions.\n\n[2] An Authorised Person must be able to satisfy the Regulator that it has systems in place to manage potential concentration of risk arising from its use of guarantees and Credit Derivatives.\n\n[3] Risk monitoring. An Authorised Person should have in place a system for monitoring the overall quality of its Credit Risk Exposures under normal and stressful conditions. There should also be a reporting system which alerts management to aggregate Exposures approaching various pre set portfolio limits.\n\n[4] An Authorised Person must implement and maintain appropriate policies, processes, systems and controls to:\n(a)\tadminister its credit portfolios, including keeping the credit files current, getting up to date financial information on borrowers and other Counterparties, funds transfer, and electronic storage of important documents;\n(b)\tensure that the valuations of Credit Risk mitigants employed by the Authorised Person are up to date, including periodic assessment of Credit Risk mitigants such as guarantees and Collateral;\n(c)\treview all material concentrations in its credit portfolio and report the findings of such reviews to the Governing Body; and\n(d)\tmeasure Credit Risk (including to measure Credit Risk of off balance sheet products such as Derivatives in credit equivalent terms) and monitor the condition of individual credits to facilitate identification of problem credits and to determine the adequacy of provisions and reserves.\n\n[5] Principle 4 – Risk-Sensitive Supervision . Whilst financial crime is seen as a primary risk in the sector at this point in its growth, ADGM’s framework also includes safeguards aligned with its mandate to ensure market integrity, investor protection and financial stability. As a forward-looking regulator, the FSRA implemented these safeguards at the outset to prevent the commensurate increase in risk as the sector undergoes expansion within ADGM. Therefore, the following risk drivers receive heightened focus from the FSRA in its supervisory programme:\n(a)\tCustody of VAs – even where outsourced to a third party, a VA custodian is held to the requirements applicable to client monies and client investments. Enhanced reconciliation and reporting requirements are also in place.\n(b)\tTechnology and Governance Controls – whilst being ‘technology-neutral’, we have bespoke requirements reflecting the intensive technology-related operations of VA firms, including: the maintenance of operating systems; cryptographic keys and wallet storage; password encryption; origin/destination of VA funds; and fork protocols.\n(c)\tExchange-Type Operations – the ‘fair and orderly trading’ and Market Abuse requirements for Financial Instruments admitted to trading on trading venues in ADGM are equally applicable to VAs traded on an MTF in ADGM. Real time reporting is required for all transactions on such platforms. Requirements relating to settlement, transaction recording, rulebooks and access, among many others, also apply.\n(d)\tInvestor Protection – we have set high standards around product suitability, communication of material risks to clients and resolution of perceived client conflicts. VA firms are required to monitor and update their risk disclosures on a continuous basis.",
+        "question": "What are the ADGM's expectations regarding the systems and processes an Authorised Person should have in place for measuring and monitoring credit risk, particularly for off-balance sheet products like derivatives?",
+        "reasoning": "The context outlines the expectations of the ADGM regarding systems and processes for measuring and monitoring credit risk. Specifically, it mentions that an Authorised Person must implement and maintain appropriate policies, processes, systems, and controls to measure Credit Risk, including off-balance sheet products such as Derivatives in credit equivalent terms. Additionally, it emphasizes the need for risk monitoring systems that can assess the overall quality of Credit Risk Exposures under normal and stressful conditions, as well as the importance of identifying problem credits and ensuring the adequacy of provisions and reserves.",
+        "answer": "The ADGM expects Authorised Persons to implement and maintain appropriate systems and processes for measuring and monitoring credit risk, including off-balance sheet products like derivatives. These systems should measure Credit Risk in credit equivalent terms, monitor the condition of individual credits, identify problem credits, and ensure the adequacy of provisions and reserves. Additionally, they should have risk monitoring systems that assess the overall quality of Credit Risk Exposures under normal and stressful conditions, with reporting mechanisms to alert management when exposures approach pre-set portfolio limits.",
+        "retrieved_ids": [
+          "46c299a3-a9ee-4302-864b-f24ddbe4151e",
+          "ece15d4f-921d-486b-a4b8-e3f07ff34941",
+          "9a765242-6214-45ec-a125-95d99d81f5d8",
+          "6a578033-5cca-4984-b929-745987a8e442",
+          "f7772fcf-5951-4e74-ba83-07042f07cf9b"
+        ]
+      },
+      {
+        "question": "What channels or mechanisms are available for a compliance officer to seek further clarification or guidance on the interpretation of \"suspicious activity\" as it relates to money laundering, terrorist financing, and proliferation financing?",
+        "gold_text": "Relevant Persons should comply with guidance issued by the EOCN with regard to identifying and reporting suspicious activity and Transactions relating to money laundering, terrorist financing and proliferation financing. A Relevant Person must ensure that where the Relevant Person's MLRO receives an internal notification of suspicious activity under Rule ‎14.2.2, the MLRO, without delay:\n(a)\tinvestigates and documents the circumstances in relation to which the notification made under Rule ‎14.2.2 was made;\n(b)\tdetermines whether in accordance with Federal AML Legislation a SAR/STR must be made and documents such determination; and\n(c)\tif required, make a SAR/STR as soon as practicable."
+      },
+      {
+        "question": "What are the ADGM's expectations regarding the contribution of a Relevant Person to a Group-wide risk assessment, and what format or framework should this assessment follow to ensure compliance?",
+        "gold_text": "A Relevant Person must document, and provide to the Regulator immediately, any of the following:\n(a)\tthe risk assessment of its business as required by Rule ‎‎6.1.1;\n(b)\thow the assessment in (a) was used for the purposes of complying with Rule ‎6.1.2;\n(c)\tthe risk assessment of the customer undertaken under Rule ‎‎7.1.1(1)(a); and\n(d)\tthe determination made under Rule ‎‎7.1.1(1)(b)."
+      }
+    ],
+    "signature": {
+      "instructions": "Given the fields `context`, `question`, and the requirement to generate both `reasoning` and `answer`, produce a structured and coherent response by first analyzing the context, identifying relevant information, and then logically deriving the answer. Ensure that the reasoning clearly connects the context to the answer, and the answer is precise, well-supported, and aligned with the principles and regulations mentioned in the context.",
+      "fields": [
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "${answer}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10",
+      "dspy": "3.2.1",
+      "cloudpickle": "3.1"
+    }
+  }
+}

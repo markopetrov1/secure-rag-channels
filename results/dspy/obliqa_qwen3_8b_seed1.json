@@ -1,0 +1,93 @@
+{
+  "answer.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "context": "[1] An Authorised Person must include every position that is not included in its Trading Book in its Non Trading Book.\n\n[2] An Authorised Person which has a Trading Book must have adequate systems and controls to:\n(a)\tmonitor the size of its Trading Book; and\n(b)\tensure that positions are included consistently in its Trading Book and Non Trading Book so that:\n(i)\tthe inclusion of hedging positions in the Trading Book or the Non Trading Book at all times reflects the intent of the Authorised Person in holding the position; and\n(ii)\tadequate records are made if positions are transferred between Trading and Non Trading Books so that the transfers may be identified.\n\n[3] An Authorised Person must value every position included in its Trading Book and the Non Trading Book in accordance with the relevant accounting standards and practices.\n\n[4] A Trading Book policy must include clearly defined policies, procedures and methodologies by which the Authorised Person:\n(a)\tdefines its Trading Book and identifies positions to be included in its Trading Book;\n(b)\tallocates positions between the Non Trading Book and the Trading Book;\n(c)\tactively manages and values its positions in the Trading Book;\n(d)\tmeasures its Trading Book risks; and\n(e)\tcontrols transfers of positions between the Non Trading Book and the Trading Book.\n\n[5] An Authorised Person must establish and maintain effective systems and controls to manage its Trading Book.",
+        "question": "How should an Authorised Person manage the consistency of position inclusion between the Trading Book and Non-Trading Book to reflect the intent of holding positions?",
+        "reasoning": "The question asks how an Authorised Person should manage the consistency of position inclusion between the Trading Book and Non-Trading Book to reflect the intent of holding positions. According to the context, specifically point [2](b)(i), an Authorised Person must ensure that the inclusion of hedging positions in the Trading Book or the Non Trading Book at all times reflects the intent of the Authorised Person in holding the position. Additionally, point [4](a) and [4](b) mention the need for clearly defined policies and procedures to define and identify positions in the Trading Book and allocate positions between the Non Trading Book and the Trading Book. These points collectively indicate that the Authorised Person must have consistent and well-defined policies to ensure that positions are included consistently in both books and that the intent behind holding positions is reflected.",
+        "answer": "An Authorised Person should manage the consistency of position inclusion between the Trading Book and Non-Trading Book by ensuring that the inclusion of hedging positions in either book reflects the intent of holding the position. This requires clearly defined policies and procedures to define and identify positions in the Trading Book and allocate positions between the Non-Trading Book and the Trading Book. These policies must ensure that positions are consistently included in the appropriate books and that the intent behind holding positions is accurately reflected.",
+        "retrieved_ids": [
+          "daf80c42-d9cb-462a-a5a1-e386386aadb4",
+          "963e379f-4c8d-43c8-a9e6-550dd35d10c2",
+          "4ec298f8-cdb5-4646-a5c7-f59d7c6f0a23",
+          "3304e36a-c288-4aac-9e5d-9c82cb52eb22",
+          "5c302462-2ebd-4b55-9f79-9be11450c8e5"
+        ]
+      },
+      {
+        "augmented": true,
+        "context": "[1] The disclosure required under this Rule is: 'Regulated by the ADGM Financial Services Regulatory Authority'.\n\n[2] Availability of assets of Insurers incorporated outside ADGM\n\n[3] As the Regulator's mandate is to regulate all financial services provided in and from the ADGM, the Regulator has broad access to compel the disclosure of Confidential Information from individuals and firms participating in or connected to the provision of financial services in or from the ADGM. This includes, without limitation, all market participants, listed companies, reporting entities and their respective officers and directors.\nFor example, an ADGM-based fund manager which manages a fund organized in and sold to investors in a foreign jurisdiction will be subject to the jurisdiction of the Regulator and all books and records relating to the fund and its unitholders will be subject to examination by the Regulator upon request.\n\n[4] Introduction\nGuidance overview and application\n\nThis Guidance provides information about the obligations of ADGM limited companies concerning the ESG Disclosures Framework.\nLegal framework\n\nThe relevant ADGM legislation regarding accounts for limited companies is the CR.\n\nThe ADGM’s Regulations and Rules are available on the ADGM website by following this link (https://en.adgm.thomsonreuters.com/).\nImportant information\n\nThe RA cannot give technical or legal advice, it can only give general guidance. Questions concerning a specific company which arise following a review of this Guidance should be directed to appropriately skilled legal or accounting professionals.\n\n[5] A Relevant Person must inform the Regulator in writing as soon as possible if, in the course of its activities carried on in or from the ADGM, it suspects or becomes aware that another Person outside of its business is engaged in:\n(a)\tmoney laundering, contrary to relevant Federal AML Legislation;\n(b)\ta breach of Sanctions; or\n(c)\tacts amounting to bribery under the OECD Convention on Combatting Bribery of Foreign Public Officials in International Business Transactions.\nThis requirement does not apply to information or documents that are legally privileged or in the public domain.",
+        "question": "What are the immediate disclosure requirements for inside information that an auditor or actuary must follow under ADGM regulations?",
+        "reasoning": "The context provided outlines the disclosure requirements under ADGM regulations, particularly focusing on the obligations of regulated entities and the role of the Regulator. It mentions that the Regulator has broad access to compel the disclosure of Confidential Information from individuals and firms involved in financial services in or from the ADGM. However, the context does not specifically address the immediate disclosure requirements for inside information that an auditor or actuary must follow. Therefore, the answer must be inferred based on the general principles of disclosure and confidentiality under ADGM regulations.",
+        "answer": "Under ADGM regulations, an auditor or actuary must disclose inside information to the Regulator if they suspect or become aware of activities such as money laundering, breaches of sanctions, or acts of bribery. This disclosure must be made in writing as soon as possible. The requirement does not apply to information that is legally privileged or in the public domain.",
+        "retrieved_ids": [
+          "37f65419-f9ec-4f84-a982-38bc61208950",
+          "46b64a28-e440-425f-a787-164cc181e8f0",
+          "c189930c-3626-49e7-828b-48393687167d",
+          "0487a271-74a6-46d7-807c-3eab39adc217",
+          "b626aec6-0610-4ad3-91e3-19f401aa3295"
+        ]
+      },
+      {
+        "augmented": true,
+        "context": "[1] When employing an eKYC System to assist with CDD, a Relevant Person should:\na.\tensure that it has a thorough understanding of the eKYC System itself and the risks of eKYC, including those outlined by relevant guidance from FATF and other international standard setting bodies;\nb.\tcomply with all the Rules of the Regulator relevant to eKYC including, but not limited to, applicable requirements regarding the business risk assessment, as per Rule ‎6.1, and outsourcing, as per Rule ‎9.3;\nc.\tcombine eKYC with transaction monitoring, anti-fraud and cyber-security measures to support a wider framework preventing applicable Financial Crime; and\nd.\ttake appropriate steps to identify, assess and mitigate the risk of the eKYC system being misused for the purposes of Financial Crime.\n\n[2] A business risk assessment under Rule ‎6.1.1(b) should include an assessment of the risks associated with the carrying on of NFTF business, particularly the use of eKYC Systems. The assessment should consider incorporating any relevant mitigation measures identified by the Regulator, a competent authority of the U.A.E., FATF, and any other relevant bodies.\n\n[3] The risk assessment under Rule ‎6.2.1(c) should identify actions to mitigate risks associated with undertaking NFTF business generally, and the use of eKYC specifically. This is because distinct risks are often likely to arise where business is conducted entirely in an NFTF manner, compared to when the business relationship includes a mix of face-to-face and NFTF interactions. The assessment should make reference to risk mitigation measures recommended by the Regulator, a competent authority of the U.A.E., FATF, and other relevant bodies.\n\n[4] Where a Relevant Person uses eKYC for CDD purposes appropriate measures must be adopted to mitigate the risks that may arise from eKYC processes and the use of an eKYC System. A Relevant Person must ensure that eKYC is secure and effective, includes an appropriate combination of authentication factors when verifying the identity of the customer and ensure it is at least as stringent as face-to-face CDD. Measures should be in place to verify the authenticity of any official government identification document and the actual customer. A Relevant Person should also apply guidance on technical standards for biometric authentication issued by the Regulator or a competent authority of the U.A.E., as applicable.\n\n[5] When undertaking an assurance assessment of an eKYC System for the purpose of Rule ‎9.3.1A, a Relevant Person should seek to establish that the eKYC System is reliable and independent, and allows the Relevant Person to comply with all applicable Rules of the Regulator. In addition, a Relevant Person should consider applying guidance on assurance standards issued by the Regulator, competent U.A.E. authorities, FATF, and other relevant standard setting bodies.",
+        "question": "What are the minimum requirements for understanding and managing the risks of eKYC systems, and how should these be documented and reviewed?",
+        "reasoning": "The context outlines the minimum requirements for understanding and managing the risks of eKYC systems. These include ensuring a thorough understanding of the eKYC system and its associated risks, compliance with relevant regulatory rules, combining eKYC with transaction monitoring and cyber-security measures, and taking steps to prevent misuse for financial crime. Additionally, the context emphasizes the importance of conducting a business risk assessment and an assurance assessment of the eKYC system, referencing guidance from the Regulator, competent U.A.E. authorities, FATF, and other relevant bodies. These requirements should be documented and reviewed regularly to ensure they remain effective and aligned with regulatory expectations.",
+        "answer": "The minimum requirements for understanding and managing the risks of eKYC systems include: (1) ensuring a thorough understanding of the eKYC system and its associated risks, including guidance from FATF and other international bodies; (2) complying with all relevant regulatory rules, including business risk assessments and outsourcing requirements; (3) combining eKYC with transaction monitoring, anti-fraud, and cyber-security measures; and (4) taking steps to prevent misuse of the eKYC system for financial crime. These requirements should be documented through a business risk assessment and an assurance assessment of the eKYC system, referencing guidance from the Regulator, competent U.A.E. authorities, FATF, and other relevant bodies. These documents should be reviewed regularly to ensure they remain effective and aligned with regulatory expectations.",
+        "retrieved_ids": [
+          "cb40cc9f-1271-40bd-8bc6-2f4e6fce615a",
+          "31f0a7bd-a9fa-4aab-a4b4-32d0a6fb51b2",
+          "c24c6dfe-b5fa-4802-81ab-5894795d4362",
+          "aecde7ad-d719-4416-b520-a9e53a58934f",
+          "611c820f-2988-4e25-9091-4a3b299501b4"
+        ]
+      },
+      {
+        "augmented": true,
+        "context": "[1] The Statement by Directors forming part of the quarterly Regulatory Return must state that:\n(a)\tthe quarterly Regulatory Return has been prepared in accordance with the provisions of PIN, this Chapter 2 and the instructional guidelines and prudential reporting systems specified by the Regulator; and\n(b)\tthe Captive Insurer complies, as at the date of the statement, with those provisions of  PIN that are applicable to it.\n\n[2] The Statement by Directors forming part of the quarterly Regulatory Return must state that the Insurer complies, as at the date of the statement, with those provisions of PIN that are applicable to it.\n\n[3] The quarterly Regulatory Return must comprise the statements set out in ‎APP10, together with any Supplementary Notes pertaining to those forms, and including a Statement by Directors.\n\n[4] The quarterly Regulatory Return must comprise the statements set out in this Rule ‎2.3, together with any Supplementary Notes pertaining to those forms, and including a Statement by Directors.\n\n[5] The Statement by Directors forms a part of the annual Regulatory Return or the quarterly Regulatory Return.  By providing these statements, the directors confirm that the Returns have been properly prepared and that the Insurer complies with applicable prudential rules.",
+        "question": "Are there any specific declarations or attestations that the Statement by Directors must include to meet compliance standards for the quarterly Regulatory Return?",
+        "reasoning": "The context outlines the requirements for the Statement by Directors as part of the quarterly Regulatory Return. It specifies that the Statement by Directors must confirm that the quarterly Regulatory Return has been prepared in accordance with the provisions of PIN, Chapter 2, and the instructional guidelines and prudential reporting systems specified by the Regulator. Additionally, it must confirm that the Captive Insurer complies with those provisions of PIN that are applicable to it as at the date of the statement. These confirmations constitute the specific declarations or attestations required for compliance.",
+        "answer": "Yes, the Statement by Directors must include specific declarations or attestations to meet compliance standards for the quarterly Regulatory Return. These include:\n1. A declaration that the quarterly Regulatory Return has been prepared in accordance with the provisions of PIN, Chapter 2, and the instructional guidelines and prudential reporting systems specified by the Regulator.\n2. A confirmation that the Captive Insurer complies, as at the date of the statement, with those provisions of PIN that are applicable to it.",
+        "retrieved_ids": [
+          "b044cdce-b6ca-47b5-8e7c-d6773b5c09f5",
+          "9395c2f3-701e-4e83-8c44-e067f1fad4d3",
+          "53bb69e6-ea75-4eba-8df7-58e5c8768c76",
+          "55495ce2-6b69-4dbb-8b74-1bc3ccee0f03",
+          "6bded417-fb25-4f62-9862-25cc1e89bff6"
+        ]
+      }
+    ],
+    "signature": {
+      "instructions": "Given the fields `context` and `question`, generate a well-structured `reasoning` and `answer` that directly address the question. The `reasoning` should clearly explain how the `answer` is derived from the provided `context`, citing relevant parts of the context and explaining their connection to the question. The `answer` should be concise, accurate, and directly respond to the question, incorporating key insights from the context. Ensure that the answer is evidence-based, logically consistent, and tailored to the specialized domain of financial regulations and compliance.",
+      "fields": [
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "${answer}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10",
+      "dspy": "3.2.1",
+      "cloudpickle": "3.1"
+    }
+  }
+}

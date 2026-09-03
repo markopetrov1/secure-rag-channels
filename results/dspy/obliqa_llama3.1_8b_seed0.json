@@ -1,0 +1,63 @@
+{
+  "answer.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "context": "[1] A claim of PII, for example, may be appropriate in the circumstances where disclosure would prejudice or otherwise unduly interfere with the Regulator’s ability to perform its functions and exercise its powers (including if the disclosure would adversely affect its ability to cooperate with and receive Confidential Information from other Regulatory Authorities).\n\n[2] When a PII claim is asserted, a court would be required to balance between whether the public interest in disclosing certain information is outweighed by the public interest in preserving the confidentiality of that information.\n\n[3] Pursuant to Rule 6.4.1(c), an Authorised Person should notify the Regulator of any significant PII claim made. What amounts to a significant claim will depend on the nature size and complexity of the Authorised Person and the Regulator would expect the Authorised Person to treat a series of small single claims which are significant in aggregate as significant for the purposes of Rule 6.4.1(c).\n\n[4] Additional disclosure requirements for PSIAs\n\n[5] In other circumstances, such as where Confidential Information is sought by a party other than a governmental or regulatory authority, such as, for example, as evidence for use in civil litigation, the Regulator will require prior consent of—\n(a)\tthe person from whom the Confidential Information was obtained; and,\n(b)\tif different, the person to whom the duty of confidentiality is owed (paragraphs 198(1)(a) and (b)),\nconsistent with its general duty of confidentiality, as contemplated by section 198(1) of the FSMR.",
+        "question": "When might it be deemed necessary for a regulator to claim PII to ensure the continued receipt of Confidential Information from counterpart regulatory bodies?",
+        "reasoning": "According to the context provided, a regulator may claim PII (Protective Information) when disclosure would prejudice or otherwise unduly interfere with their ability to perform their functions and exercise their powers. This includes situations where disclosure would adversely affect their ability to cooperate with and receive Confidential Information from other Regulatory Authorities.\n\nIn this specific scenario, it is necessary for the regulator to claim PII to ensure the continued receipt of Confidential Information from counterpart regulatory bodies when there is a risk that disclosure could compromise their ability to perform their functions or exercise their powers effectively. This would be in line with Rule 6.4.1(c), which requires an Authorised Person to notify the Regulator of any significant PII claim made.",
+        "answer": "When it is necessary for a regulator to claim PII to ensure the continued receipt of Confidential Information from counterpart regulatory bodies, it is typically when disclosure would prejudice or otherwise unduly interfere with their ability to perform their functions and exercise their powers.",
+        "retrieved_ids": [
+          "ea9dc697-c660-4c17-9d9f-2ad8dc3eb3ca",
+          "ce2b4f85-4cd5-47a6-8778-b2e9e8286fb2",
+          "4277c2e9-86cd-4d29-bbde-f249d57946f0",
+          "bdcb4206-711f-4611-b95c-0cd29d7d8dff",
+          "d5f06cc2-641f-47b8-979d-9a02192e7343"
+        ]
+      },
+      {
+        "question": "In the event that an insurer lacks a demonstrable risk control culture, what remedial actions does the ADGM expect the insurer to take to meet the specific control objectives?",
+        "gold_text": "An Insurer should describe how its risk limits, norms, and pricing policies described in Rule 2.2.1(d) link with its board approved risk appetite described in Rule 2.2.1(a), corporate objectives, business strategy and current circumstances.  An Insurer is expected to incorporate its risk limits into its day to day operations and its risk management policies and procedures. The risk management systems required by the Rules should be integrated with the operational processes of a business.  Insurers are expected to instil a strong risk control culture throughout their operations, so that material risks and potential problems that emerge can be identified, managed and promptly resolved in the normal course of business operations.  The absence of such a control culture is likely to be taken as evidence that more specific control objectives are unlikely to be attained."
+      },
+      {
+        "question": "What is the FSRA's position on the use of third-party service providers for the management and execution of Digital Securities Offers, and are there specific criteria that these service providers must meet?",
+        "gold_text": "MARKETS RULES – OFFERS OF SECURITIES TO THE PUBLIC\nProspectus content for an Offer of Digital Securities\nThe required disclosures to be included in an Approved Prospectus are set out in Appendix 1 of MKT. A Prospectus related to the Offering of Digital Securities is to include all required disclosures set out within MKT Appendix 1, as applicable.\n"
+      },
+      {
+        "question": "Can you provide detailed examples of what actions or omissions would be considered as posing the greatest risk to the integrity of the ADGM or the stability of the financial services industry within it?",
+        "gold_text": "There are a number of principles underlying our approach to the exercise of our enforcement powers, including:\n(a)\tthe effectiveness of the regulatory regime depends on the maintenance of an open and co-operative relationship between us and those we regulate;\n(b)\twe adopt a risk-based approach to regulation, focusing our efforts on those activities that we perceive as posing the greatest risk to the furtherance of our objectives;\n(c)\twe will act fairly, openly, accountably and proportionately in the exercise of our enforcement powers;\n(d)\twe will act swiftly and decisively to stop conduct which threatens the integrity of the ADGM or the stability of the financial services industry in the ADGM, minimise its effects, and prevent such conduct from re-occurring;\n(e)\twe aim to:\n(i)\tdeter or reduce the likelihood of future non-compliance;\n(ii)\treduce or eliminate any financial gain or benefit from non-compliance; and\n(iii)\twhere appropriate, remedy the harm caused by the non-compliance."
+      }
+    ],
+    "signature": {
+      "instructions": "Given a context of financial regulations and compliance, specifically related to ADGM regulatory framework, and a question that pertains to interpreting and applying relevant laws and rules, produce an answer in the form of a concise and accurate guidance on how to comply with applicable regulations. Ensure that your response is informed by relevant text snippets retrieved from a large corpus of text using the RAGProgram (Relevance And Guarantee) model.",
+      "fields": [
+        {
+          "prefix": "Context:",
+          "description": "${context}"
+        },
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "${answer}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10",
+      "dspy": "3.2.1",
+      "cloudpickle": "3.1"
+    }
+  }
+}
