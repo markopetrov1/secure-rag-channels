@@ -1,0 +1,28 @@
+# Full pipeline: generation, judging, corpus build, analysis and figures.
+# To reproduce only the analysis from committed results, use the much smaller
+# requirements-analysis.txt instead; it avoids the multi-gigabyte torch install.
+
+# --- analysis, figures and statistics
+numpy
+pandas
+scipy
+krippendorff
+matplotlib
+
+# --- pipeline
+requests            # ollama HTTP client in src/engine.py
+tiktoken            # context budgeting for the long-context arm
+rank-bm25           # lexical ranker for hybrid retrieval and document routing
+
+# --- arm A7, compiled retrieval
+dspy
+litellm             # imported directly by src/run_dspy.py, not only via dspy
+optuna              # required by MIPROv2; without it compilation fails at the
+                    # optimiser step after bootstrapping, which is silent
+
+# --- human validation sheets (.xlsx read and write)
+openpyxl
+
+# --- embedding ablation only; pulls several gigabytes
+sentence-transformers
+torch
