@@ -1,0 +1,5 @@
+track,mode,arm,generator,n,prompt_tokens_per_query,completion_tokens_per_query,tokens_per_query,arm_name
+obliqa,open,a8,llama3.1_8b,500,935.048,130.362,1065.41,Agentic ReAct RAG
+obliqa,open,a8,qwen3_8b,500,963.818,80.88,1044.6979999999999,Agentic ReAct RAG
+obliqa,open,a8c,llama3.1_8b,500,3210.732,428.222,3638.9539999999997,Agentic critique-revise RAG
+obliqa,open,a8c,qwen3_8b,500,3148.178,344.178,3492.3559999999998,Agentic critique-revise RAG

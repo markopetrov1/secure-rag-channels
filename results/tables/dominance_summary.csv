@@ -1,0 +1,21 @@
+track,mode,generator,arm,arm_name,setup_tokens,tokens_per_query,quality,n_dominates,n_dominated_by,dominated_by,strictly_dominated
+obliqa,open,llama3.1:8b,a1,Zero-shot closed book,0.0,220.31,0.16,1,0,,False
+obliqa,open,llama3.1:8b,a2,Few-shot ICL closed book,0.0,1079.45,0.2004264392324093,0,0,,False
+obliqa,open,llama3.1:8b,a3,Long context,0.0,24283.798,0.2757111597374179,0,0,,False
+obliqa,open,llama3.1:8b,a4,Dense RAG,1170586.0,890.532,0.5053763440860215,3,0,,False
+obliqa,open,llama3.1:8b,a5,Hybrid RAG (RRF),1170586.0,1004.74,0.5401301518438177,3,0,,False
+obliqa,open,llama3.1:8b,a2o,One-shot ICL closed book,0.0,329.73,0.1375,0,1,a1,True
+obliqa,open,llama3.1:8b,a8,Agentic ReAct RAG,1170586.0,1065.41,0.4651685393258427,2,2,"a4,a5",True
+obliqa,open,llama3.1:8b,a7,DSPy-optimized RAG,3781285.0,1818.276,0.4148471615720524,0,3,"a4,a5,a8",True
+obliqa,open,llama3.1:8b,a8c,Agentic critique-revise RAG,1170586.0,3638.954,0.4433962264150943,0,3,"a4,a5,a8",True
+obliqa,open,qwen3:8b,a1,Zero-shot closed book,0.0,202.836,0.3047210300429184,0,0,,False
+obliqa,open,qwen3:8b,a2o,One-shot ICL closed book,0.0,344.204,0.3369565217391304,1,0,,False
+obliqa,open,qwen3:8b,a3,Long context,0.0,24377.72,0.3870967741935484,0,0,,False
+obliqa,open,qwen3:8b,a4,Dense RAG,1170586.0,892.468,0.580168776371308,4,0,,False
+obliqa,open,qwen3:8b,a5,Hybrid RAG (RRF),1170586.0,1003.46,0.5970772442588727,5,0,,False
+obliqa,open,qwen3:8b,a2,Few-shot ICL closed book,0.0,1091.016,0.3259911894273127,0,1,a2o,True
+obliqa,open,qwen3:8b,a8c,Agentic critique-revise RAG,1170586.0,3492.356,0.5816554809843401,2,1,a5,True
+obliqa,open,qwen3:8b,a7,DSPy-optimized RAG,7511770.0,2952.144,0.5689277899343544,1,2,"a4,a5",True
+obliqa,open,qwen3:8b,a8,Agentic ReAct RAG,1170586.0,1044.698,0.4890829694323144,0,2,"a4,a5",True
+obliqa,open,qwen3:8b,a7s2,"DSPy-optimized RAG, third optimiser seed",7511770.0,3968.134,0.5711111111111111,0,3,"a4,a5,a8c",True
+obliqa,open,qwen3:8b,a7s1,"DSPy-optimized RAG, second optimiser seed",7511770.0,3966.352,0.5468409586056645,0,4,"a4,a5,a7,a8c",True

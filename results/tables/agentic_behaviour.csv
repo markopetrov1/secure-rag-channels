@@ -1,0 +1,5 @@
+track,mode,arm,generator,n,calls_mean,calls_median,searches_mean,pct_zero_search,pct_one_search,pct_multi_search,protocol_violations,pct_items_with_violation,stop_answered,stop_revised,stop_critic_accepted
+obliqa,open,a8,llama3.1_8b,500,2.0,2.0,1.0,0.0,1.0,0.0,0,0.0,1.0,,
+obliqa,open,a8,qwen3_8b,500,1.998,2.0,0.998,0.002,0.998,0.0,0,0.0,1.0,,
+obliqa,open,a8c,llama3.1_8b,500,3.0,3.0,1.0,0.0,1.0,0.0,0,0.0,,1.0,
+obliqa,open,a8c,qwen3_8b,500,2.984,3.0,1.0,0.0,1.0,0.0,0,0.0,,0.984,0.016

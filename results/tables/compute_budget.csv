@@ -1,0 +1,10 @@
+stage,worker_hours,tokens,calls
+"Corpus indexing, one-time",0.0,1170586,209
+"DSPy compilation, one-time, three seeds",0.7601352992984983,8957441,6603
+"Generation, the seven fixed arms",20.076368433435757,34372753,12000
+"Generation, the two agentic arms",6.470371389653947,4678508,6990
+"Judging, three judges over every arm",104.09085254728794,21916076,30406
+Retrieval evaluation and embedder ablation,0.3173637082841661,1207236,1544
+Serial latency benchmark,0.8464080752266778,1676588,480
+"Agentic behaviour analysis, post hoc",3.198253503574265,658030,21801
+Total,135.75975295676125,74637218,80033

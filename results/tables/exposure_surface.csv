@@ -1,0 +1,11 @@
+arm,design,channel,instruments,tokens_per_query,units_per_query,fixed_before_any_query,inspected
+a1,Zero-shot,none,0,0.0,0.0,False,False
+a2o,One-shot ICL,exemplar,2,199.0,1.0,True,False
+a2,Few-shot ICL,exemplar,7,996.0,5.0,True,False
+a3,Long context,routed,32,3315.4,1.23,False,True
+a4,Dense RAG,retrieved,39,643.4,5.0,False,True
+a5,Hybrid RAG,retrieved,39,750.9,5.0,False,True
+a7,Compiled RAG,compiled,6,2793.5,1.0,True,False
+a7,Compiled RAG,retrieved,39,643.4,5.0,False,True
+a8,Agentic ReAct,retrieved,38,499.7,4.99,False,True
+a8c,Agentic critique,retrieved,39,750.9,5.0,False,True

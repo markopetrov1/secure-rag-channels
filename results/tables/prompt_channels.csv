@@ -1,0 +1,18 @@
+channel,carrier,n_items,documents,doc_list,tokens,grams_matched,grams_ambiguous,per_query,clearance_aware,inspected_by_retrieval_hook
+exemplar,few-shot pool,8,7,"3,11,13,14,33,34,37",996,694,139,False,False,False
+compiled,obliqa_llama3.1_8b_seed0.json,1,5,"12,13,23,27,33",1512,427,3,False,False,False
+compiled,obliqa_qwen3_8b_seed0.json,1,4,"1,13,24,33",2658,745,30,False,False,False
+compiled,obliqa_qwen3_8b_seed1.json,1,7,"1,2,7,12,13,23,25",3513,790,47,False,False,False
+compiled,obliqa_qwen3_8b_seed2.json,1,7,"1,2,7,12,13,23,25",3491,790,47,False,False,False
+retrieved,a4/llama3.1_8b,500,39,,643,-1,-1,True,True,True
+retrieved,a4/qwen3_8b,500,39,,643,-1,-1,True,True,True
+retrieved,a5/llama3.1_8b,500,39,,750,-1,-1,True,True,True
+retrieved,a5/qwen3_8b,500,39,,750,-1,-1,True,True,True
+retrieved,a7/llama3.1_8b,500,39,,643,-1,-1,True,True,True
+retrieved,a7/qwen3_8b,500,39,,643,-1,-1,True,True,True
+retrieved,a7s1/qwen3_8b,500,39,,643,-1,-1,True,True,True
+retrieved,a7s2/qwen3_8b,500,39,,643,-1,-1,True,True,True
+retrieved,a8/llama3.1_8b,500,39,,493,-1,-1,True,True,True
+retrieved,a8/qwen3_8b,500,38,,499,-1,-1,True,True,True
+retrieved,a8c/llama3.1_8b,500,39,,750,-1,-1,True,True,True
+retrieved,a8c/qwen3_8b,500,39,,750,-1,-1,True,True,True

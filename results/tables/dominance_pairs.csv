@@ -1,0 +1,183 @@
+track,mode,generator,arm_a,arm_b,relation,quality_a,quality_b,a_dominated_by_b,setup_a,setup_b,marginal_a,marginal_b,breakeven_queries,a_cheaper_at_100,a_cheaper_at_1000,a_cheaper_at_10000,a_cheaper_at_100000,a_cheaper_at_1000000
+obliqa,open,llama3.1:8b,a1,a2,costs less on both axes,0.16,0.2004264392324093,False,0.0,0.0,220.31,1079.45,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a1,a2o,costs less on both axes,0.16,0.1375,False,0.0,0.0,220.31,329.73,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a1,a3,costs less on both axes,0.16,0.2757111597374179,False,0.0,0.0,220.31,24283.798,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a1,a4,costs less on both axes,0.16,0.5053763440860215,False,0.0,1170586.0,220.31,890.532,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a1,a5,costs less on both axes,0.16,0.5401301518438177,False,0.0,1170586.0,220.31,1004.74,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a1,a7,costs less on both axes,0.16,0.4148471615720524,False,0.0,3781285.0,220.31,1818.276,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a1,a8,costs less on both axes,0.16,0.4651685393258427,False,0.0,1170586.0,220.31,1065.41,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a1,a8c,costs less on both axes,0.16,0.4433962264150943,False,0.0,1170586.0,220.31,3638.954,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a2,a1,costs more on both axes,0.2004264392324093,0.16,False,0.0,0.0,1079.45,220.31,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a2,a2o,costs more on both axes,0.2004264392324093,0.1375,False,0.0,0.0,1079.45,329.73,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a2,a3,costs less on both axes,0.2004264392324093,0.2757111597374179,False,0.0,0.0,1079.45,24283.798,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a2,a4,crosses,0.2004264392324093,0.5053763440860215,False,0.0,1170586.0,1079.45,890.532,6196.265046210525,True,True,False,False,False
+obliqa,open,llama3.1:8b,a2,a5,crosses,0.2004264392324093,0.5401301518438177,False,0.0,1170586.0,1079.45,1004.74,15668.397804845394,True,True,True,False,False
+obliqa,open,llama3.1:8b,a2,a7,costs less on both axes,0.2004264392324093,0.4148471615720524,False,0.0,3781285.0,1079.45,1818.276,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a2,a8,crosses,0.2004264392324093,0.4651685393258427,False,0.0,1170586.0,1079.45,1065.41,83375.07122507144,True,True,True,False,False
+obliqa,open,llama3.1:8b,a2,a8c,costs less on both axes,0.2004264392324093,0.4433962264150943,False,0.0,1170586.0,1079.45,3638.954,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a2o,a1,costs more on both axes,0.1375,0.16,True,0.0,0.0,329.73,220.31,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a2o,a2,costs less on both axes,0.1375,0.2004264392324093,False,0.0,0.0,329.73,1079.45,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a2o,a3,costs less on both axes,0.1375,0.2757111597374179,False,0.0,0.0,329.73,24283.798,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a2o,a4,costs less on both axes,0.1375,0.5053763440860215,False,0.0,1170586.0,329.73,890.532,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a2o,a5,costs less on both axes,0.1375,0.5401301518438177,False,0.0,1170586.0,329.73,1004.74,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a2o,a7,costs less on both axes,0.1375,0.4148471615720524,False,0.0,3781285.0,329.73,1818.276,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a2o,a8,costs less on both axes,0.1375,0.4651685393258427,False,0.0,1170586.0,329.73,1065.41,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a2o,a8c,costs less on both axes,0.1375,0.4433962264150943,False,0.0,1170586.0,329.73,3638.954,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a3,a1,costs more on both axes,0.2757111597374179,0.16,False,0.0,0.0,24283.798,220.31,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a3,a2,costs more on both axes,0.2757111597374179,0.2004264392324093,False,0.0,0.0,24283.798,1079.45,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a3,a2o,costs more on both axes,0.2757111597374179,0.1375,False,0.0,0.0,24283.798,329.73,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a3,a4,crosses,0.2757111597374179,0.5053763440860215,False,0.0,1170586.0,24283.798,890.532,50.039442974743245,False,False,False,False,False
+obliqa,open,llama3.1:8b,a3,a5,crosses,0.2757111597374179,0.5401301518438177,False,0.0,1170586.0,24283.798,1004.74,50.28493850567322,False,False,False,False,False
+obliqa,open,llama3.1:8b,a3,a7,crosses,0.2757111597374179,0.4148471615720524,False,0.0,3781285.0,24283.798,1818.276,168.31502958177427,True,False,False,False,False
+obliqa,open,llama3.1:8b,a3,a8,crosses,0.2757111597374179,0.4651685393258427,False,0.0,1170586.0,24283.798,1065.41,50.41633381266607,False,False,False,False,False
+obliqa,open,llama3.1:8b,a3,a8c,crosses,0.2757111597374179,0.4433962264150943,False,0.0,1170586.0,24283.798,3638.954,56.701130800504,False,False,False,False,False
+obliqa,open,llama3.1:8b,a4,a1,costs more on both axes,0.5053763440860215,0.16,False,1170586.0,0.0,890.532,220.31,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a4,a2,crosses,0.5053763440860215,0.2004264392324093,False,1170586.0,0.0,890.532,1079.45,6196.265046210525,False,False,True,True,True
+obliqa,open,llama3.1:8b,a4,a2o,costs more on both axes,0.5053763440860215,0.1375,False,1170586.0,0.0,890.532,329.73,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a4,a3,crosses,0.5053763440860215,0.2757111597374179,False,1170586.0,0.0,890.532,24283.798,50.039442974743245,True,True,True,True,True
+obliqa,open,llama3.1:8b,a4,a5,costs less on both axes,0.5053763440860215,0.5401301518438177,False,1170586.0,1170586.0,890.532,1004.74,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a4,a7,costs less on both axes,0.5053763440860215,0.4148471615720524,False,1170586.0,3781285.0,890.532,1818.276,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a4,a8,costs less on both axes,0.5053763440860215,0.4651685393258427,False,1170586.0,1170586.0,890.532,1065.41,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a4,a8c,costs less on both axes,0.5053763440860215,0.4433962264150943,False,1170586.0,1170586.0,890.532,3638.954,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a5,a1,costs more on both axes,0.5401301518438177,0.16,False,1170586.0,0.0,1004.74,220.31,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a5,a2,crosses,0.5401301518438177,0.2004264392324093,False,1170586.0,0.0,1004.74,1079.45,15668.397804845394,False,False,False,True,True
+obliqa,open,llama3.1:8b,a5,a2o,costs more on both axes,0.5401301518438177,0.1375,False,1170586.0,0.0,1004.74,329.73,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a5,a3,crosses,0.5401301518438177,0.2757111597374179,False,1170586.0,0.0,1004.74,24283.798,50.28493850567322,True,True,True,True,True
+obliqa,open,llama3.1:8b,a5,a4,costs more on both axes,0.5401301518438177,0.5053763440860215,False,1170586.0,1170586.0,1004.74,890.532,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a5,a7,costs less on both axes,0.5401301518438177,0.4148471615720524,False,1170586.0,3781285.0,1004.74,1818.276,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a5,a8,costs less on both axes,0.5401301518438177,0.4651685393258427,False,1170586.0,1170586.0,1004.74,1065.41,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a5,a8c,costs less on both axes,0.5401301518438177,0.4433962264150943,False,1170586.0,1170586.0,1004.74,3638.954,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a7,a1,costs more on both axes,0.4148471615720524,0.16,False,3781285.0,0.0,1818.276,220.31,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a7,a2,costs more on both axes,0.4148471615720524,0.2004264392324093,False,3781285.0,0.0,1818.276,1079.45,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a7,a2o,costs more on both axes,0.4148471615720524,0.1375,False,3781285.0,0.0,1818.276,329.73,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a7,a3,crosses,0.4148471615720524,0.2757111597374179,False,3781285.0,0.0,1818.276,24283.798,168.31502958177427,False,True,True,True,True
+obliqa,open,llama3.1:8b,a7,a4,costs more on both axes,0.4148471615720524,0.5053763440860215,True,3781285.0,1170586.0,1818.276,890.532,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a7,a5,costs more on both axes,0.4148471615720524,0.5401301518438177,True,3781285.0,1170586.0,1818.276,1004.74,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a7,a8,costs more on both axes,0.4148471615720524,0.4651685393258427,True,3781285.0,1170586.0,1818.276,1065.41,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a7,a8c,crosses,0.4148471615720524,0.4433962264150943,False,3781285.0,1170586.0,1818.276,3638.954,1433.9158269611648,False,False,True,True,True
+obliqa,open,llama3.1:8b,a8,a1,costs more on both axes,0.4651685393258427,0.16,False,1170586.0,0.0,1065.41,220.31,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a8,a2,crosses,0.4651685393258427,0.2004264392324093,False,1170586.0,0.0,1065.41,1079.45,83375.07122507144,False,False,False,True,True
+obliqa,open,llama3.1:8b,a8,a2o,costs more on both axes,0.4651685393258427,0.1375,False,1170586.0,0.0,1065.41,329.73,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a8,a3,crosses,0.4651685393258427,0.2757111597374179,False,1170586.0,0.0,1065.41,24283.798,50.41633381266607,True,True,True,True,True
+obliqa,open,llama3.1:8b,a8,a4,costs more on both axes,0.4651685393258427,0.5053763440860215,True,1170586.0,1170586.0,1065.41,890.532,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a8,a5,costs more on both axes,0.4651685393258427,0.5401301518438177,True,1170586.0,1170586.0,1065.41,1004.74,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a8,a7,costs less on both axes,0.4651685393258427,0.4148471615720524,False,1170586.0,3781285.0,1065.41,1818.276,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a8,a8c,costs less on both axes,0.4651685393258427,0.4433962264150943,False,1170586.0,1170586.0,1065.41,3638.954,,True,True,True,True,True
+obliqa,open,llama3.1:8b,a8c,a1,costs more on both axes,0.4433962264150943,0.16,False,1170586.0,0.0,3638.954,220.31,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a8c,a2,costs more on both axes,0.4433962264150943,0.2004264392324093,False,1170586.0,0.0,3638.954,1079.45,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a8c,a2o,costs more on both axes,0.4433962264150943,0.1375,False,1170586.0,0.0,3638.954,329.73,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a8c,a3,crosses,0.4433962264150943,0.2757111597374179,False,1170586.0,0.0,3638.954,24283.798,56.701130800504,True,True,True,True,True
+obliqa,open,llama3.1:8b,a8c,a4,costs more on both axes,0.4433962264150943,0.5053763440860215,True,1170586.0,1170586.0,3638.954,890.532,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a8c,a5,costs more on both axes,0.4433962264150943,0.5401301518438177,True,1170586.0,1170586.0,3638.954,1004.74,,False,False,False,False,False
+obliqa,open,llama3.1:8b,a8c,a7,crosses,0.4433962264150943,0.4148471615720524,False,1170586.0,3781285.0,3638.954,1818.276,1433.9158269611648,True,True,False,False,False
+obliqa,open,llama3.1:8b,a8c,a8,costs more on both axes,0.4433962264150943,0.4651685393258427,True,1170586.0,1170586.0,3638.954,1065.41,,False,False,False,False,False
+obliqa,open,qwen3:8b,a1,a2,costs less on both axes,0.3047210300429184,0.3259911894273127,False,0.0,0.0,202.836,1091.016,,True,True,True,True,True
+obliqa,open,qwen3:8b,a1,a2o,costs less on both axes,0.3047210300429184,0.3369565217391304,False,0.0,0.0,202.836,344.204,,True,True,True,True,True
+obliqa,open,qwen3:8b,a1,a3,costs less on both axes,0.3047210300429184,0.3870967741935484,False,0.0,0.0,202.836,24377.72,,True,True,True,True,True
+obliqa,open,qwen3:8b,a1,a4,costs less on both axes,0.3047210300429184,0.580168776371308,False,0.0,1170586.0,202.836,892.468,,True,True,True,True,True
+obliqa,open,qwen3:8b,a1,a5,costs less on both axes,0.3047210300429184,0.5970772442588727,False,0.0,1170586.0,202.836,1003.46,,True,True,True,True,True
+obliqa,open,qwen3:8b,a1,a7,costs less on both axes,0.3047210300429184,0.5689277899343544,False,0.0,7511770.0,202.836,2952.144,,True,True,True,True,True
+obliqa,open,qwen3:8b,a1,a7s1,costs less on both axes,0.3047210300429184,0.5468409586056645,False,0.0,7511770.0,202.836,3966.352,,True,True,True,True,True
+obliqa,open,qwen3:8b,a1,a7s2,costs less on both axes,0.3047210300429184,0.5711111111111111,False,0.0,7511770.0,202.836,3968.134,,True,True,True,True,True
+obliqa,open,qwen3:8b,a1,a8,costs less on both axes,0.3047210300429184,0.4890829694323144,False,0.0,1170586.0,202.836,1044.698,,True,True,True,True,True
+obliqa,open,qwen3:8b,a1,a8c,costs less on both axes,0.3047210300429184,0.5816554809843401,False,0.0,1170586.0,202.836,3492.356,,True,True,True,True,True
+obliqa,open,qwen3:8b,a2,a1,costs more on both axes,0.3259911894273127,0.3047210300429184,False,0.0,0.0,1091.016,202.836,,False,False,False,False,False
+obliqa,open,qwen3:8b,a2,a2o,costs more on both axes,0.3259911894273127,0.3369565217391304,True,0.0,0.0,1091.016,344.204,,False,False,False,False,False
+obliqa,open,qwen3:8b,a2,a3,costs less on both axes,0.3259911894273127,0.3870967741935484,False,0.0,0.0,1091.016,24377.72,,True,True,True,True,True
+obliqa,open,qwen3:8b,a2,a4,crosses,0.3259911894273127,0.580168776371308,False,0.0,1170586.0,1091.016,892.468,5895.733021737813,True,True,False,False,False
+obliqa,open,qwen3:8b,a2,a5,crosses,0.3259911894273127,0.5970772442588727,False,0.0,1170586.0,1091.016,1003.46,13369.569190004106,True,True,True,False,False
+obliqa,open,qwen3:8b,a2,a7,costs less on both axes,0.3259911894273127,0.5689277899343544,False,0.0,7511770.0,1091.016,2952.144,,True,True,True,True,True
+obliqa,open,qwen3:8b,a2,a7s1,costs less on both axes,0.3259911894273127,0.5468409586056645,False,0.0,7511770.0,1091.016,3966.352,,True,True,True,True,True
+obliqa,open,qwen3:8b,a2,a7s2,costs less on both axes,0.3259911894273127,0.5711111111111111,False,0.0,7511770.0,1091.016,3968.134,,True,True,True,True,True
+obliqa,open,qwen3:8b,a2,a8,crosses,0.3259911894273127,0.4890829694323144,False,0.0,1170586.0,1091.016,1044.698,25272.809706809458,True,True,True,False,False
+obliqa,open,qwen3:8b,a2,a8c,costs less on both axes,0.3259911894273127,0.5816554809843401,False,0.0,1170586.0,1091.016,3492.356,,True,True,True,True,True
+obliqa,open,qwen3:8b,a2o,a1,costs more on both axes,0.3369565217391304,0.3047210300429184,False,0.0,0.0,344.204,202.836,,False,False,False,False,False
+obliqa,open,qwen3:8b,a2o,a2,costs less on both axes,0.3369565217391304,0.3259911894273127,False,0.0,0.0,344.204,1091.016,,True,True,True,True,True
+obliqa,open,qwen3:8b,a2o,a3,costs less on both axes,0.3369565217391304,0.3870967741935484,False,0.0,0.0,344.204,24377.72,,True,True,True,True,True
+obliqa,open,qwen3:8b,a2o,a4,costs less on both axes,0.3369565217391304,0.580168776371308,False,0.0,1170586.0,344.204,892.468,,True,True,True,True,True
+obliqa,open,qwen3:8b,a2o,a5,costs less on both axes,0.3369565217391304,0.5970772442588727,False,0.0,1170586.0,344.204,1003.46,,True,True,True,True,True
+obliqa,open,qwen3:8b,a2o,a7,costs less on both axes,0.3369565217391304,0.5689277899343544,False,0.0,7511770.0,344.204,2952.144,,True,True,True,True,True
+obliqa,open,qwen3:8b,a2o,a7s1,costs less on both axes,0.3369565217391304,0.5468409586056645,False,0.0,7511770.0,344.204,3966.352,,True,True,True,True,True
+obliqa,open,qwen3:8b,a2o,a7s2,costs less on both axes,0.3369565217391304,0.5711111111111111,False,0.0,7511770.0,344.204,3968.134,,True,True,True,True,True
+obliqa,open,qwen3:8b,a2o,a8,costs less on both axes,0.3369565217391304,0.4890829694323144,False,0.0,1170586.0,344.204,1044.698,,True,True,True,True,True
+obliqa,open,qwen3:8b,a2o,a8c,costs less on both axes,0.3369565217391304,0.5816554809843401,False,0.0,1170586.0,344.204,3492.356,,True,True,True,True,True
+obliqa,open,qwen3:8b,a3,a1,costs more on both axes,0.3870967741935484,0.3047210300429184,False,0.0,0.0,24377.72,202.836,,False,False,False,False,False
+obliqa,open,qwen3:8b,a3,a2,costs more on both axes,0.3870967741935484,0.3259911894273127,False,0.0,0.0,24377.72,1091.016,,False,False,False,False,False
+obliqa,open,qwen3:8b,a3,a2o,costs more on both axes,0.3870967741935484,0.3369565217391304,False,0.0,0.0,24377.72,344.204,,False,False,False,False,False
+obliqa,open,qwen3:8b,a3,a4,crosses,0.3870967741935484,0.580168776371308,False,0.0,1170586.0,24377.72,892.468,49.843450689820145,False,False,False,False,False
+obliqa,open,qwen3:8b,a3,a5,crosses,0.3870967741935484,0.5970772442588727,False,0.0,1170586.0,24377.72,1003.46,50.080130879009644,False,False,False,False,False
+obliqa,open,qwen3:8b,a3,a7,crosses,0.3870967741935484,0.5689277899343544,False,0.0,7511770.0,24377.72,2952.144,350.5982756309562,True,False,False,False,False
+obliqa,open,qwen3:8b,a3,a7s1,crosses,0.3870967741935484,0.5468409586056645,False,0.0,7511770.0,24377.72,3966.352,368.0189392499317,True,False,False,False,False
+obliqa,open,qwen3:8b,a3,a7s2,crosses,0.3870967741935484,0.5711111111111111,False,0.0,7511770.0,24377.72,3968.134,368.0510716875883,True,False,False,False,False
+obliqa,open,qwen3:8b,a3,a8,crosses,0.3870967741935484,0.4890829694323144,False,0.0,1170586.0,24377.72,1044.698,50.16864082157896,False,False,False,False,False
+obliqa,open,qwen3:8b,a3,a8c,crosses,0.3870967741935484,0.5816554809843401,False,0.0,1170586.0,24377.72,3492.356,56.04814931643039,False,False,False,False,False
+obliqa,open,qwen3:8b,a4,a1,costs more on both axes,0.580168776371308,0.3047210300429184,False,1170586.0,0.0,892.468,202.836,,False,False,False,False,False
+obliqa,open,qwen3:8b,a4,a2,crosses,0.580168776371308,0.3259911894273127,False,1170586.0,0.0,892.468,1091.016,5895.733021737813,False,False,True,True,True
+obliqa,open,qwen3:8b,a4,a2o,costs more on both axes,0.580168776371308,0.3369565217391304,False,1170586.0,0.0,892.468,344.204,,False,False,False,False,False
+obliqa,open,qwen3:8b,a4,a3,crosses,0.580168776371308,0.3870967741935484,False,1170586.0,0.0,892.468,24377.72,49.843450689820145,True,True,True,True,True
+obliqa,open,qwen3:8b,a4,a5,costs less on both axes,0.580168776371308,0.5970772442588727,False,1170586.0,1170586.0,892.468,1003.46,,True,True,True,True,True
+obliqa,open,qwen3:8b,a4,a7,costs less on both axes,0.580168776371308,0.5689277899343544,False,1170586.0,7511770.0,892.468,2952.144,,True,True,True,True,True
+obliqa,open,qwen3:8b,a4,a7s1,costs less on both axes,0.580168776371308,0.5468409586056645,False,1170586.0,7511770.0,892.468,3966.352,,True,True,True,True,True
+obliqa,open,qwen3:8b,a4,a7s2,costs less on both axes,0.580168776371308,0.5711111111111111,False,1170586.0,7511770.0,892.468,3968.134,,True,True,True,True,True
+obliqa,open,qwen3:8b,a4,a8,costs less on both axes,0.580168776371308,0.4890829694323144,False,1170586.0,1170586.0,892.468,1044.698,,True,True,True,True,True
+obliqa,open,qwen3:8b,a4,a8c,costs less on both axes,0.580168776371308,0.5816554809843401,False,1170586.0,1170586.0,892.468,3492.356,,True,True,True,True,True
+obliqa,open,qwen3:8b,a5,a1,costs more on both axes,0.5970772442588727,0.3047210300429184,False,1170586.0,0.0,1003.46,202.836,,False,False,False,False,False
+obliqa,open,qwen3:8b,a5,a2,crosses,0.5970772442588727,0.3259911894273127,False,1170586.0,0.0,1003.46,1091.016,13369.569190004106,False,False,False,True,True
+obliqa,open,qwen3:8b,a5,a2o,costs more on both axes,0.5970772442588727,0.3369565217391304,False,1170586.0,0.0,1003.46,344.204,,False,False,False,False,False
+obliqa,open,qwen3:8b,a5,a3,crosses,0.5970772442588727,0.3870967741935484,False,1170586.0,0.0,1003.46,24377.72,50.080130879009644,True,True,True,True,True
+obliqa,open,qwen3:8b,a5,a4,costs more on both axes,0.5970772442588727,0.580168776371308,False,1170586.0,1170586.0,1003.46,892.468,,False,False,False,False,False
+obliqa,open,qwen3:8b,a5,a7,costs less on both axes,0.5970772442588727,0.5689277899343544,False,1170586.0,7511770.0,1003.46,2952.144,,True,True,True,True,True
+obliqa,open,qwen3:8b,a5,a7s1,costs less on both axes,0.5970772442588727,0.5468409586056645,False,1170586.0,7511770.0,1003.46,3966.352,,True,True,True,True,True
+obliqa,open,qwen3:8b,a5,a7s2,costs less on both axes,0.5970772442588727,0.5711111111111111,False,1170586.0,7511770.0,1003.46,3968.134,,True,True,True,True,True
+obliqa,open,qwen3:8b,a5,a8,costs less on both axes,0.5970772442588727,0.4890829694323144,False,1170586.0,1170586.0,1003.46,1044.698,,True,True,True,True,True
+obliqa,open,qwen3:8b,a5,a8c,costs less on both axes,0.5970772442588727,0.5816554809843401,False,1170586.0,1170586.0,1003.46,3492.356,,True,True,True,True,True
+obliqa,open,qwen3:8b,a7,a1,costs more on both axes,0.5689277899343544,0.3047210300429184,False,7511770.0,0.0,2952.144,202.836,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7,a2,costs more on both axes,0.5689277899343544,0.3259911894273127,False,7511770.0,0.0,2952.144,1091.016,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7,a2o,costs more on both axes,0.5689277899343544,0.3369565217391304,False,7511770.0,0.0,2952.144,344.204,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7,a3,crosses,0.5689277899343544,0.3870967741935484,False,7511770.0,0.0,2952.144,24377.72,350.5982756309562,False,True,True,True,True
+obliqa,open,qwen3:8b,a7,a4,costs more on both axes,0.5689277899343544,0.580168776371308,True,7511770.0,1170586.0,2952.144,892.468,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7,a5,costs more on both axes,0.5689277899343544,0.5970772442588727,True,7511770.0,1170586.0,2952.144,1003.46,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7,a7s1,costs less on both axes,0.5689277899343544,0.5468409586056645,False,7511770.0,7511770.0,2952.144,3966.352,,True,True,True,True,True
+obliqa,open,qwen3:8b,a7,a7s2,costs less on both axes,0.5689277899343544,0.5711111111111111,False,7511770.0,7511770.0,2952.144,3968.134,,True,True,True,True,True
+obliqa,open,qwen3:8b,a7,a8,costs more on both axes,0.5689277899343544,0.4890829694323144,False,7511770.0,1170586.0,2952.144,1044.698,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7,a8c,crosses,0.5689277899343544,0.5816554809843401,False,7511770.0,1170586.0,2952.144,3492.356,11738.324953906975,False,False,False,True,True
+obliqa,open,qwen3:8b,a7s1,a1,costs more on both axes,0.5468409586056645,0.3047210300429184,False,7511770.0,0.0,3966.352,202.836,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7s1,a2,costs more on both axes,0.5468409586056645,0.3259911894273127,False,7511770.0,0.0,3966.352,1091.016,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7s1,a2o,costs more on both axes,0.5468409586056645,0.3369565217391304,False,7511770.0,0.0,3966.352,344.204,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7s1,a3,crosses,0.5468409586056645,0.3870967741935484,False,7511770.0,0.0,3966.352,24377.72,368.0189392499317,False,True,True,True,True
+obliqa,open,qwen3:8b,a7s1,a4,costs more on both axes,0.5468409586056645,0.580168776371308,True,7511770.0,1170586.0,3966.352,892.468,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7s1,a5,costs more on both axes,0.5468409586056645,0.5970772442588727,True,7511770.0,1170586.0,3966.352,1003.46,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7s1,a7,costs more on both axes,0.5468409586056645,0.5689277899343544,True,7511770.0,7511770.0,3966.352,2952.144,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7s1,a7s2,costs less on both axes,0.5468409586056645,0.5711111111111111,False,7511770.0,7511770.0,3966.352,3968.134,,True,True,True,True,True
+obliqa,open,qwen3:8b,a7s1,a8,costs more on both axes,0.5468409586056645,0.4890829694323144,False,7511770.0,1170586.0,3966.352,1044.698,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7s1,a8c,costs more on both axes,0.5468409586056645,0.5816554809843401,True,7511770.0,1170586.0,3966.352,3492.356,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7s2,a1,costs more on both axes,0.5711111111111111,0.3047210300429184,False,7511770.0,0.0,3968.134,202.836,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7s2,a2,costs more on both axes,0.5711111111111111,0.3259911894273127,False,7511770.0,0.0,3968.134,1091.016,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7s2,a2o,costs more on both axes,0.5711111111111111,0.3369565217391304,False,7511770.0,0.0,3968.134,344.204,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7s2,a3,crosses,0.5711111111111111,0.3870967741935484,False,7511770.0,0.0,3968.134,24377.72,368.0510716875883,False,True,True,True,True
+obliqa,open,qwen3:8b,a7s2,a4,costs more on both axes,0.5711111111111111,0.580168776371308,True,7511770.0,1170586.0,3968.134,892.468,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7s2,a5,costs more on both axes,0.5711111111111111,0.5970772442588727,True,7511770.0,1170586.0,3968.134,1003.46,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7s2,a7,costs more on both axes,0.5711111111111111,0.5689277899343544,False,7511770.0,7511770.0,3968.134,2952.144,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7s2,a7s1,costs more on both axes,0.5711111111111111,0.5468409586056645,False,7511770.0,7511770.0,3968.134,3966.352,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7s2,a8,costs more on both axes,0.5711111111111111,0.4890829694323144,False,7511770.0,1170586.0,3968.134,1044.698,,False,False,False,False,False
+obliqa,open,qwen3:8b,a7s2,a8c,costs more on both axes,0.5711111111111111,0.5816554809843401,True,7511770.0,1170586.0,3968.134,3492.356,,False,False,False,False,False
+obliqa,open,qwen3:8b,a8,a1,costs more on both axes,0.4890829694323144,0.3047210300429184,False,1170586.0,0.0,1044.698,202.836,,False,False,False,False,False
+obliqa,open,qwen3:8b,a8,a2,crosses,0.4890829694323144,0.3259911894273127,False,1170586.0,0.0,1044.698,1091.016,25272.809706809458,False,False,False,True,True
+obliqa,open,qwen3:8b,a8,a2o,costs more on both axes,0.4890829694323144,0.3369565217391304,False,1170586.0,0.0,1044.698,344.204,,False,False,False,False,False
+obliqa,open,qwen3:8b,a8,a3,crosses,0.4890829694323144,0.3870967741935484,False,1170586.0,0.0,1044.698,24377.72,50.16864082157896,True,True,True,True,True
+obliqa,open,qwen3:8b,a8,a4,costs more on both axes,0.4890829694323144,0.580168776371308,True,1170586.0,1170586.0,1044.698,892.468,,False,False,False,False,False
+obliqa,open,qwen3:8b,a8,a5,costs more on both axes,0.4890829694323144,0.5970772442588727,True,1170586.0,1170586.0,1044.698,1003.46,,False,False,False,False,False
+obliqa,open,qwen3:8b,a8,a7,costs less on both axes,0.4890829694323144,0.5689277899343544,False,1170586.0,7511770.0,1044.698,2952.144,,True,True,True,True,True
+obliqa,open,qwen3:8b,a8,a7s1,costs less on both axes,0.4890829694323144,0.5468409586056645,False,1170586.0,7511770.0,1044.698,3966.352,,True,True,True,True,True
+obliqa,open,qwen3:8b,a8,a7s2,costs less on both axes,0.4890829694323144,0.5711111111111111,False,1170586.0,7511770.0,1044.698,3968.134,,True,True,True,True,True
+obliqa,open,qwen3:8b,a8,a8c,costs less on both axes,0.4890829694323144,0.5816554809843401,False,1170586.0,1170586.0,1044.698,3492.356,,True,True,True,True,True
+obliqa,open,qwen3:8b,a8c,a1,costs more on both axes,0.5816554809843401,0.3047210300429184,False,1170586.0,0.0,3492.356,202.836,,False,False,False,False,False
+obliqa,open,qwen3:8b,a8c,a2,costs more on both axes,0.5816554809843401,0.3259911894273127,False,1170586.0,0.0,3492.356,1091.016,,False,False,False,False,False
+obliqa,open,qwen3:8b,a8c,a2o,costs more on both axes,0.5816554809843401,0.3369565217391304,False,1170586.0,0.0,3492.356,344.204,,False,False,False,False,False
+obliqa,open,qwen3:8b,a8c,a3,crosses,0.5816554809843401,0.3870967741935484,False,1170586.0,0.0,3492.356,24377.72,56.04814931643039,True,True,True,True,True
+obliqa,open,qwen3:8b,a8c,a4,costs more on both axes,0.5816554809843401,0.580168776371308,False,1170586.0,1170586.0,3492.356,892.468,,False,False,False,False,False
+obliqa,open,qwen3:8b,a8c,a5,costs more on both axes,0.5816554809843401,0.5970772442588727,True,1170586.0,1170586.0,3492.356,1003.46,,False,False,False,False,False
+obliqa,open,qwen3:8b,a8c,a7,crosses,0.5816554809843401,0.5689277899343544,False,1170586.0,7511770.0,3492.356,2952.144,11738.324953906975,True,True,True,False,False
+obliqa,open,qwen3:8b,a8c,a7s1,costs less on both axes,0.5816554809843401,0.5468409586056645,False,1170586.0,7511770.0,3492.356,3966.352,,True,True,True,True,True
+obliqa,open,qwen3:8b,a8c,a7s2,costs less on both axes,0.5816554809843401,0.5711111111111111,False,1170586.0,7511770.0,3492.356,3968.134,,True,True,True,True,True
+obliqa,open,qwen3:8b,a8c,a8,costs more on both axes,0.5816554809843401,0.4890829694323144,False,1170586.0,1170586.0,3492.356,1044.698,,False,False,False,False,False

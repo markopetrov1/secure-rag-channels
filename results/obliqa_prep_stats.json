@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "test_total": 2786,
+  "sample_size": 500,
+  "group_dist_sample": {
+    "3": 101,
+    "4": 84,
+    "1": 138,
+    "2": 127,
+    "10": 50
+  },
+  "gold_passages_per_q": {
+    "1": 396,
+    "2": 82,
+    "3": 16,
+    "4": 5,
+    "5": 1
+  },
+  "corpus_passages": 13012,
+  "corpus_docs": 40,
+  "corpus_words": 835799
+}

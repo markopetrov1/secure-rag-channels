@@ -1,0 +1,9 @@
+grader,epsilon,winning_rate,n_annotators,passes
+gemma3:12b,0.0,0.0,2,False
+gemma3:12b,0.2,0.5,2,True
+gpt-oss:20b,0.0,0.0,2,False
+gpt-oss:20b,0.2,1.0,2,True
+phi4:14b,0.0,0.0,2,False
+phi4:14b,0.2,1.0,2,True
+PANEL,0.0,0.0,2,False
+PANEL,0.2,1.0,2,True
