@@ -1,0 +1,18 @@
+# Everything needed to reproduce the analysis from the committed results:
+# every table, figure and statistic this study reports.
+#
+# No GPU, no model weights and no corpus are required, and this set deliberately
+# excludes torch and sentence-transformers so it stays a small install. Use the
+# full requirements.txt if you intend to rerun generation, judging, the corpus
+# build or the embedding ablation.
+numpy
+pandas
+scipy
+krippendorff
+matplotlib
+
+# Pulled in transitively: src/retrieval.py builds a BM25 index at import time and
+# src/engine.py constructs its HTTP client, so both are needed even on the paths
+# that never issue a model call.
+rank-bm25
+requests
